@@ -1,0 +1,241 @@
+/* ++++++++++++++++++++++++++++++++++ Header css */
+
+.headerBG {
+  background-image: url("../src/assets/startup-photos.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  height: 20px;
+  width: 20px;
+}
+.header-h1 {
+  font-size: 2em;
+  font-weight: bolder;
+}
+@media screen and (min-width: 768px) {
+  .header-h1 {
+    font-size: 3em;
+    font-weight: bolder;
+  }
+  .header-p-w {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .header-h1 {
+    font-size: 4em;
+    font-weight: bolder;
+  }
+  .header-p-w {
+    width: 60%;
+  }
+}
+.btn-contact {
+  font-size: 14px !important;
+}
+.btn-custom-green {
+  border: 2px solid rgb(49, 146, 49) !important;
+  font-size: 14px !important;
+  background: rgb(49, 146, 49) !important;
+}
+.btn-custom-green:hover {
+  transition: all 0.5s ease;
+
+  color: rgb(49, 146, 49) !important;
+  background: white !important;
+}
+/* ++++++++++++++++++++++++++++++++++ Header css */
+
+/************************************ offer-card-css */
+.of-image {
+  height: 300px !important;
+}
+.border-b {
+  width: 100px !important;
+  border: 2px solid orangered;
+}
+.text-custom {
+  color: orangered !important;
+}
+.bg-custom {
+  background-color: orangered !important;
+}
+.offer-card {
+  bottom: -75px;
+  left: 10%;
+  width: 80%;
+  transform: translate(50% 50%);
+}
+.offer-card .bg-white {
+  height: 150px;
+}
+
+.offer-list > ul > li {
+  padding: 15px 5px;
+  border-bottom: 0.5px solid rgb(233, 228, 228);
+}
+.fa-check {
+  background: rgb(90, 194, 90);
+  color: white;
+}
+.include-image {
+  position: relative;
+  right: -10rem;
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  .include-image {
+    position: relative;
+    right: -6rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .offer-card {
+    bottom: -95px;
+    position: relative !important;
+  }
+  .of-image {
+    height: 230px !important;
+  }
+  .card-parent {
+    height: 300px;
+  }
+  .include-image {
+    position: relative;
+    right: -5rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .card-parent {
+    height: 450px;
+  }
+  .include-image {
+    position: static;
+    height: 100%;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .card-parent {
+    height: 400px;
+  }
+  .of-image {
+    height: 260px !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .card-parent {
+    height: 300px;
+  }
+  .of-image {
+    height: 200px !important;
+  }
+}
+
+/******************************* offer-card-css */
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Live Training Css */
+
+.live-traning-bg {
+  background: url("../src/assets/live-traning-bg.avif") no-repeat;
+  background-size: cover;
+}
+.live-small-text {
+  font-size: 10px;
+}
+
+.rotate-up {
+  transform: rotate(325deg);
+}
+
+.live-training-cards > .bg-white {
+  height: 170px;
+}
+.live-training-cards > .bg-white:hover {
+  transition: all 0.5s ease;
+  cursor: pointer;
+  background: rgb(54, 212, 54) !important;
+  color: #f5f5f5;
+}
+.live-training-cards > .bg-white:hover .text-custom {
+  color: #f5f5f5 !important;
+}
+.live-training-cards > .bg-white:hover .fa-check {
+  background-color: white !important;
+  color: rgb(54, 212, 54) !important;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Live Training Css */
+
+/* ************ About css */
+
+.aboutBG {
+  background-image: url("../src/assets/oilsDrum.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-logo {
+  width: 40px;
+  height: 30px;
+}
+.about-h1 {
+  font-size: 20px;
+}
+.copyright {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-text-w {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about-h1 {
+    font-size: 17px;
+  }
+  .aboutBG {
+    background-position: center;
+  }
+}
+/* ************ About css */
+
+/* ****************Form page css */
+
+.bg-gold {
+  background-image: url("../src/assets/gold-ba.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.phone-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background: white;
+  color: orangered;
+}
+.phone-icon:hover {
+  color: white;
+  cursor: pointer;
+  background: orangered;
+  transition: all 0.5s ease;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+  border-color: rgb(218, 211, 211) !important;
+}
+.btn-submit {
+  font-size: 12px !important;
+  color: white !important;
+  width: 100%;
+}
+.btn-submit:hover {
+  background: rgb(189, 52, 2) !important;
+}
+/* ****************Form page css */
